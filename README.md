@@ -51,7 +51,7 @@ pip install torch transformers pypdf2
 
 ## 🧪 Usage
 
-1. Place your training `.txt` file (e.g., `harry_potter.txt`) in the root directory.
+1. Place your training `.txt` file (e.g., `harry_potter.txt`) or `.pdf` file in the root directory.
 2. Run the notebook or script to train the model:
 
    ```bash
