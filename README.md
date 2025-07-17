@@ -56,7 +56,7 @@ pip install torch transformers pypdf2
    ```bash
    python MiniGPT_Training_Script.ipynb
    ```
-3. The script will train for 100 epochs and generate sample text every 10 epochs.
+3. The script will train for 500 epochs and generate sample text every 10 epochs.
 
 
 ## 📌 Requirements
