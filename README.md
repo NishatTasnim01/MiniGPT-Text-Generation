@@ -47,6 +47,7 @@ cd MiniGPT-Text-Generation
 ```bash
 pip install torch transformers pypdf2
 ```
+> 🔍 **Note**: `PyPDF2` is optional and used only if you're loading data from a `.pdf`.
 
 ## 🧪 Usage
 
@@ -54,7 +55,7 @@ pip install torch transformers pypdf2
 2. Run the notebook or script to train the model:
 
    ```bash
-   python MiniGPT_Training_Script.ipynb
+   python gpt2_text_generator.ipynb
    ```
 3. The script will train for 500 epochs and generate sample text every 10 epochs.
 
