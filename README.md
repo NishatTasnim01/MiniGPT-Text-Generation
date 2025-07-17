@@ -1,6 +1,6 @@
 # 🧠 MiniGPT-Text-Generation
 
-A lightweight implementation of a GPT-style Transformer model built from scratch using PyTorch. This project demonstrates how to train a mini language model capable of generating coherent text sequences based on input prompts. The model uses a custom-built transformer encoder and is trained on plain text files such as *Harry Potter*.
+A lightweight implementation of a GPT-style Transformer model built from scratch using PyTorch. This project demonstrates how to train a mini language model capable of generating coherent text sequences based on input prompts. The model uses a custom-built transformer encoder and is trained on plain text files.
 
 
 ## 🚀 Features
@@ -23,23 +23,17 @@ MiniGPT-Text-Generation/
 
 ## 📖 How It Works
 
-1. **Load text data**  
-   Reads raw text from a `.txt` file.
+1. **Load text data**  : Reads raw text from a `.txt` file.
 
-2. **Tokenization**  
-   Uses the pretrained GPT-2 tokenizer from HuggingFace.
+2. **Tokenization**  : Uses the pretrained GPT-2 tokenizer from HuggingFace.
 
-3. **Data Preparation**  
-   Chunks the tokenized text into fixed-length sequences and prepares them for next-token prediction.
+3. **Data Preparation**  : Chunks the tokenized text into fixed-length sequences and prepares them for next-token prediction.
 
-4. **MiniGPT Model**  
-   Implements a simple Transformer-based language model with embedding, positional encoding, and multi-layer encoder blocks.
+4. **MiniGPT Model**  : Implements a simple Transformer-based language model with embedding, positional encoding, and multi-layer encoder blocks.
 
-5. **Training Loop**  
-   Uses cross-entropy loss and the Adam optimizer to minimize prediction error.
+5. **Training Loop**  : Uses cross-entropy loss and the Adam optimizer to minimize prediction error.
 
-6. **Text Generation**  
-   Generates new text sequences from a starting prompt using temperature-scaled sampling.
+6. **Text Generation**  : Generates new text sequences from a starting prompt using temperature-scaled sampling.
 
 ## 🛠️ Installation
 
@@ -76,7 +70,7 @@ pip install torch transformers pypdf2
 
 Any `.txt` file containing plain English text can be used. Example used:
 
-* *Harry Potter Book (Text Version)*
+* *Harry Potter and the Sorcerer's Stone (Text Version)*
 
 ## 🌟 Show Your Support
 
