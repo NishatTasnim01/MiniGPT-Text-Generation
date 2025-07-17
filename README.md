@@ -17,7 +17,7 @@ A lightweight implementation of a GPT-style Transformer model built from scratch
 MiniGPT-Text-Generation/
 │
 ├── harry\_potter.txt              # Input training text file
-├── gpt2-text-generator.ipynb      # Training and inference code
+├── gpt2_text_generator.ipynb      # Training and inference code
 └── README.md                      # Project documentation
 ```
 
